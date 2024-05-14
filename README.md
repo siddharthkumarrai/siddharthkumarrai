@@ -11,7 +11,7 @@ As a software engineer, I enjoy using my obsessive attention to detail, and my u
 
 That's why I like to make things that make a difference.
 
-<img align="right" alt="GIF" src="https://github.com/AswinBarath/AswinBarath/blob/master/coding.gif?raw=true" width="408" height="318" />
+<img align="right" alt="GIF" src="https://github.com/siddharthkumarrai/siddharthkumarrai/blob/master/coding.gif?raw=true" width="408" height="318" />
 
 ### Talking about Personal Stuff:
 
