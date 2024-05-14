@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Siddharth Kumar Rai</h1>
-<h3 align="center">A Passionate Tech Enthusiast developer from India</h3>
+# Welcome to [Siddharth Kumar Rai](https://sidd-portfolio.onrender.com/home) profile! <a href="https://sidd-portfolio.onrender.com/home"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=siddharthkumarrai&label=Profile%20views&color=0e75b6&style=flat" alt="siddharthkumarrai" /> </p>
 
