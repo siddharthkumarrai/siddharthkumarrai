@@ -16,7 +16,7 @@ That's why I like to make things that make a difference.
 ### Talking about Personal Stuff:
 
 - 👨‍🎓 I'm a **Software Engineering Student**
-- 🔭 I’m currently working on [Next.Js](https://github.com/siddharthkumarrai/auth_nextjs.git) platform
+- 🔭 I’m currently working on [Next.Js]([https://github.com/siddharthkumarrai/auth_nextjs.git](https://nextjs.org/docs))
 - 👨‍🏫 I'm the **Community Leader** at [CodeWithSidd](https://discord.com/invite/4dNFddSN)
 - 💬 Ask me about anything, I am happy to help
 - ✍ I'm a **Passionate Tech Enthusiast**
@@ -24,7 +24,7 @@ That's why I like to make things that make a difference.
   - Python Programming 
   - Tools and technologies from <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a> ecosystem
 - 👯 Join my [community](https://discord.com/invite/4dNFddSN) if you're a tech enthusiast
-- 📬 How to reach me: [aswin2001barath@gmail.com](mailto:siddharthkumarrairai@gmail.com)
+- 📬 How to reach me: [siddharthkumarrairai@gmail.com](mailto:siddharthkumarrairai@gmail.com)
 - 📝 [Resume](https://drive.google.com/file/d/1U7Mxt_QXlELLJWa91o97MY_GOtmKr8B_/view).
 - 💪 This is where I write, code and solve problems:
 
