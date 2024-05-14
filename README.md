@@ -3,7 +3,7 @@
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/profile.php?id=61556235782338) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/siddharthkumarrai777) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/siddharth-kumar-rai/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@siddharthkr777) 
 
-## Glad to see you here! &nbsp; ![visitors](<p align="left"> <img src="https://komarev.com/ghpvc/?username=siddharthkumarrai&label=Profile%20views&color=0e75b6&style=flat" alt="siddharthkumarrai" /> </p>)
+## Glad to see you here! &nbsp; <p align="left"> <img src="https://komarev.com/ghpvc/?username=siddharthkumarrai&label=Profile%20views&color=0e75b6&style=flat" alt="siddharthkumarrai" /> </p>
 
 I am a full-stack software engineer and writer. I love programming, reading, writing and speaking.
 
