@@ -21,7 +21,7 @@ That's why I like to make things that make a difference.
 - 💬 Ask me about anything, I am happy to help
 - ✍ I'm a **Passionate Tech Enthusiast**
 - 🌱 I'm currently learning:
-  - Python Programming [LeetCode](https://leetcode.com/aswin26barath/)
+  - Python Programming 
   - Tools and technologies from <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a> ecosystem
 - 👯 Join my [community](https://discord.com/invite/4dNFddSN) if you're a tech enthusiast
 - 📬 How to reach me: [aswin2001barath@gmail.com](mailto:siddharthkumarrairai@gmail.com)
