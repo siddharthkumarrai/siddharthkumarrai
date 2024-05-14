@@ -15,17 +15,17 @@ That's why I like to make things that make a difference.
 
 ### Talking about Personal Stuff:
 
-- 👨‍🎓 I'm a **Senior Software Engineering Student**
-- 🔭 I’m currently working on [JU Query](https://github.com/AswinBarath/ju-query) platform
-- 👨‍🏫 I'm the **Community Leader** at [Codecademy JU](https://community.codecademy.com/jain-university-ju/)
+- 👨‍🎓 I'm a **Software Engineering Student**
+- 🔭 I’m currently working on [Next.Js](https://github.com/siddharthkumarrai/auth_nextjs.git) platform
+- 👨‍🏫 I'm the **Community Leader** at [CodeWithSidd](https://discord.com/invite/4dNFddSN)
 - 💬 Ask me about anything, I am happy to help
-- ✍ I'm a **Technical blogger** with 10,000+ user reads
+- ✍ I'm a **Passionate Tech Enthusiast**
 - 🌱 I'm currently learning:
-  - Data Structures and Algorithms on [LeetCode](https://leetcode.com/aswin26barath/)
+  - Python Programming [LeetCode](https://leetcode.com/aswin26barath/)
   - Tools and technologies from <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a> ecosystem
-- 👯 Join my [community](https://community.codecademy.com/jain-university-ju/) if you're a tech enthusiast
-- 📬 How to reach me: [aswin2001barath@gmail.com](mailto:aswin2001barath@gmail.com)
-- 📝 [Resume](https://drive.google.com/file/d/1VsShEZAzpmwZUsfn2G5XgENlrUkv7BJ_/view?usp=sharing).
+- 👯 Join my [community](https://discord.com/invite/4dNFddSN) if you're a tech enthusiast
+- 📬 How to reach me: [aswin2001barath@gmail.com](mailto:siddharthkumarrairai@gmail.com)
+- 📝 [Resume](https://drive.google.com/file/d/1U7Mxt_QXlELLJWa91o97MY_GOtmKr8B_/view).
 - 💪 This is where I write, code and solve problems:
 
 
