@@ -25,7 +25,7 @@ That's why I like to make things that make a difference.
   - Tools and technologies from <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a> ecosystem
 - 👯 Join my [community](https://discord.com/invite/4dNFddSN) if you're a tech enthusiast
 - 📬 How to reach me: [siddharthkumarrairai@gmail.com](mailto:siddharthkumarrairai@gmail.com)
-- 📝 [Resume](https://drive.google.com/file/d/1U7Mxt_QXlELLJWa91o97MY_GOtmKr8B_/view).
+- 📝 [Resume](https://drive.google.com/file/d/1rKkXU-IgaIBtvTGlCAAHQ9kFRbZGSU9W/view?usp=sharing).
 - 💪 This is where I write, code and solve problems:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
