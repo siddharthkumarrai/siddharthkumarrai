@@ -1,90 +1,101 @@
-# Welcome to [Siddharth Kumar Rai](https://sidd-portfolio.onrender.com/home) profile! <a href="https://sidd-portfolio.onrender.com/home"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a>
+<div align="center">
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://www.facebook.com/profile.php?id=61556235782338) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/siddharthkumarrai777) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddharthkumarrai/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@siddharthkr777) 
+# Hi there, I'm Siddharth Kumar Rai 👋
 
-## Glad to see you here! &nbsp; <p align="left"> <img src="https://komarev.com/ghpvc/?username=siddharthkumarrai&label=Profile%20views&color=0e75b6&style=flat" alt="siddharthkumarrai" /> </p>
+### Self-Taught Full-Stack Developer · MERN Specialist · Building Toward My Own Digital Agency
 
-I am a full-stack software engineer and writer. I love programming, reading, writing and speaking.
+<a href="https://sidd-portfolio.onrender.com/home"><img src="https://img.shields.io/badge/Portfolio-Visit-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/siddharthkumarrai"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:siddharthkumarrairai@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-As a software engineer, I enjoy using my obsessive attention to detail, and my unequivocal love for making things that change the world.
+<img src="https://komarev.com/ghpvc/?username=siddharthkumarrai&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
 
-That's why I like to make things that make a difference.
+</div>
 
-<img align="right" alt="GIF" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/coding-freak.gif" width="408" height="318" />
+---
 
-### Talking about Personal Stuff:
+### 👨‍💻 About Me
 
-- 👨‍🎓 I'm a **Software Engineering Student**
-- 🔭 I’m currently working on [Next.Js]([https://github.com/siddharthkumarrai/auth_nextjs.git](https://nextjs.org/docs))
-- 👨‍🏫 I'm the **Community Leader** at [CodeWithSidd](https://discord.com/invite/4dNFddSN)
-- 💬 Ask me about anything, I am happy to help
-- ✍ I'm a **Passionate Tech Enthusiast**
-- 🌱 I'm currently learning:
-  - Python Programming 
-  - Tools and technologies from <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a> ecosystem
-- 👯 Join my [community](https://discord.com/invite/4dNFddSN) if you're a tech enthusiast
-- 📬 How to reach me: [siddharthkumarrairai@gmail.com](mailto:siddharthkumarrairai@gmail.com)
-- 📝 [Resume](https://drive.google.com/file/d/1rKkXU-IgaIBtvTGlCAAHQ9kFRbZGSU9W/view?usp=sharing).
-- 💪 This is where I write, code and solve problems:
+I'm a final-semester **BCA student** and a self-taught full-stack developer with hands-on experience across **~70 GitHub repositories**. I build across the MERN stack and beyond — from web apps to autonomous AI agent systems — and I'm currently working toward founding my own **digital agency**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://github.com/Asiddharthkumarrai" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="SiddharthKumarRai" height="30" width="40" /></a>
-&nbsp;
+- 🔭 Currently building **Sidd-V2**, a local-first autonomous AI agent (Android edge node + Rust WebSocket server)
+- 🤖 Also working on **VIEON**, a tri-node embodied AI system (ESP32 humanoid + Android + PC)
+- 👨‍🏫 Community Leader at **CodeWithSidd**
+- 🌱 Exploring agentic coding workflows, MCP servers, and AI-assisted development tooling
+- 💬 Ask me about MERN, Next.js, Rust, or building AI agents — happy to help
+- 📫 Reach me at **siddharthkumarrairai@gmail.com**
 
-# 💻 Tech Stack:
+---
 
-### 👨‍💻 Programming languages
+### 🧰 Tech Stack
+
+**Languages**
+
 <p>
-    <a href="#"><img alt="Bash" src="https://img.shields.io/badge/Bash-121011.svg?logo=gnu-bash&logoColor=white"></a>
-    <a href="#"><img alt="C" src="https://custom-icon-badges.herokuapp.com/badge/C-03599C.svg?logo=c-in-hexagon&logoColor=white"></a>
-    <a href="#"><img alt="C++" src="https://custom-icon-badges.herokuapp.com/badge/C++-9C033A.svg?logo=cpp2&logoColor=white"></a>
-    <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
-    <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
-    <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
-    <a href="#"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white"></a>
-    <a href="#"><img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D.svg?logo=node.js&logoColor=white"></a>
-    <a href="#"><img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4.svg?logo=php&logoColor=white"></a>
-    <a href="#"><img alt="Python" src="https://img.shields.io/badge/Python-14354C.svg?logo=python&logoColor=white"></a>
-    <a href="#"><img alt="SQL" src="https://custom-icon-badges.herokuapp.com/badge/SQL-025E8C.svg?logo=database&logoColor=white"></a>
-    <a href="#"><img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
-### 🧰 Frameworks and libraries
+**Frameworks & Runtimes**
 
 <p>
-    <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3.svg?logo=bootstrap&logoColor=white"></a>
-    <a href="#"><img alt="Express.js" src="https://img.shields.io/badge/Express.js-404d59.svg?logo=express&logoColor=white"></a>
-    <a href="#"><img alt="NumPy" src="https://img.shields.io/badge/Numpy-013243.svg?logo=numpy&logoColor=white"></a>
-    <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white"></a>
-    <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=%2361DAFB"></a>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 </p>
 
-### 🗄️ Databases and Cloud Hosting
+**Databases & Cloud**
 
 <p>
-    <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white"></a>
-    <a href="#"><img alt="Heroku" src="https://img.shields.io/badge/Heroku-430098.svg?logo=heroku&logoColor=white"></a>
-    <a href="#"><img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-4ea94b.svg?logo=mongodb&logoColor=white"></a>
-    <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/MySQL-00f.svg?logo=mysql&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
-### 💻 Software and tools
+**Tools**
 
 <p>
-    <a href="#"><img alt="Audacity" src="https://img.shields.io/badge/-Audacity-0000CC?logo=audacity&logoColor=white"></a>
-    <a href="#"><img alt="Brave" src="https://img.shields.io/badge/-Brave-FB542B?logo=brave&logoColor=white"></a>
-    <a href="#"><img alt="Codepen" src="https://img.shields.io/badge/Codepen-000000.svg?logo=codepen&logoColor=white"></a>
-    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05033.svg?logo=git&logoColor=white"></a>
-    <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white"></a>
-    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?logo=visual-studio-code&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-0078D7?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 </p>
 
 ---
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=siddharthkumarrai&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=siddharthkumarrai&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=siddharthkumarrai&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+### 🚀 Featured Projects
+
+| Project | Description |
+|---|---|
+| **Sidd-V2** | Local-first autonomous AI agent — Android (Kotlin) edge node paired with a Rust WebSocket server |
+| **VIEON** | Decentralized tri-node embodied AI system spanning an ESP32 humanoid, Android device, and PC |
 
 ---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=siddharthkumarrai&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=siddharthkumarrai&theme=dark&hide_border=false" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddharthkumarrai&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="165" />
+</p>
+
+---
+
+### 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/siddharthkumarrai"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://x.com/siddharthkr777"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" /></a>
+  <a href="https://instagram.com/siddharthkumarrai777"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://discord.com/invite/4dNFddSN"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+</p>
