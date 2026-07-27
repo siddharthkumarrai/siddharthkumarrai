@@ -25,7 +25,7 @@
 <td width="54%" valign="top">
 
 ```bash
-avinash@world:~$ whoami
+siddharth@world:~$ whoami
 
 Hi 👋, I'm Siddharth Kumar Rai
 > ready_to_build --mode=agentic
