@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there, I'm Siddharth Kumar Rai 👋
+# Hi there, I'm Siddharth👋
 
 ### Self-Taught Full-Stack Developer · MERN Specialist · Building Toward My Own Digital Agency
 
