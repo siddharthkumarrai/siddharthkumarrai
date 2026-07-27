@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there, I'm Siddharth👋
+# Hi there, I'm Siddharth Kumar Rai 👋
 
 ### Product Engineer · Agentic AI & IoT · Full-Stack Developer · Building Toward My Own Digital Agency
 
@@ -23,7 +23,7 @@ Currently a final-semester **BCA student (IGNOU)** and a **Product Engineer**, f
 - 🤖 Building agentic AI systems with **LangChain**, **LangGraph**, and vector databases (**ChromaDB**)
 - 🔭 Currently building **Sidd-V2**, a local-first autonomous AI agent (Android edge node + Rust WebSocket server)
 - 🦾 Also working on **VIEON**, a tri-node embodied AI system (ESP32 humanoid + Android + PC)
-- 🧩 Building **SkillsLMS**, a UI component library
+- 🧩 Building **SkillsLMS**, a full-stack modern LMS (Learning Management System) product
 - 📊 Data processing & analysis with **NumPy**, **Pandas**, and **FastAPI**
 - 🎨 Also work on graphics UI/UX design
 - 👨‍🏫 Community Leader at **CodeWithSidd**
@@ -99,7 +99,7 @@ Currently a final-semester **BCA student (IGNOU)** and a **Product Engineer**, f
 
 | Project | Description | Links |
 |---|---|---|
-| **SkillsLMS** | A UI component library | [Live](https://skillslms.vercel.app/) · [Repo](https://github.com/siddharthkumarrai/LMS) |
+| **SkillsLMS** | A full-stack modern LMS (Learning Management System) product | [Live](https://skillslms.vercel.app/) · [Repo](https://github.com/siddharthkumarrai/LMS) |
 | **Sidd-V2** | Local-first autonomous AI agent — Android (Kotlin) edge node paired with a Rust WebSocket server | — |
 | **VIEON** | Decentralized tri-node embodied AI system spanning an ESP32 humanoid, Android device, and PC | — |
 
