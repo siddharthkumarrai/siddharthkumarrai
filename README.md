@@ -1,128 +1,139 @@
 <div align="center">
 
-# Hi there, I'm Siddharth Kumar Rai 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=SIDDHARTH%20KUMAR%20RAI&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Product%20Engineer%20%7C%20Agentic%20AI%20%7C%20Full-Stack%20Developer&descAlignY=58&descSize=18" width="100%"/>
 
-### Product Engineer · Agentic AI & IoT · Full-Stack Developer · Building Toward My Own Digital Agency
-
-<a href="https://sidd-portfolio.onrender.com/home"><img src="https://img.shields.io/badge/Portfolio-Visit-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/siddharthkumarrai"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:siddharthkumarrairai@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-
-<img src="https://komarev.com/ghpvc/?username=siddharthkumarrai&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2500&pause=800&color=2CD4C5&center=true&vCenter=true&width=650&lines=Building+Agentic+AI+Systems...;LangChain+%2B+LangGraph+%2B+ChromaDB;Full-Stack+MERN+%2B+Next.js+Developer;IoT+%2B+Hardware+Automation+Engineer;Currently+Job+Hunting+%7C+Open+to+Work" alt="Typing SVG" /></a>
 
 </div>
 
----
+<br/>
 
-### 👨‍💻 About Me
+<table width="100%">
+<tr>
+<td width="46%" valign="top">
 
-I'm a Software Developer and Creative Technologist who believes great engineering doesn't just live on a screen — it interacts with the real world. I don't just write code; I build complete, intelligent ecosystems from the ground up, spanning AI pipelines, backend systems, hardware automation, and UI architecture.
+<pre align="center">
+ ___ ___ ___  ___  _  _   _   ___ _____ _  _ 
+/ __|_ _|   \|   \| || | /_\ | _ \_   _| || |
+\__ \| || |) | |) | __ |/ _ \|   / | | | __ |
+|___/___|___/|___/|_||_/_/ \_\_|_\ |_| |_||_|
 
-Currently a final-semester **BCA student (IGNOU)** and a **Product Engineer**, freelancing in Electronics & IoT at **acreativestudios**, based in the Greater Delhi Area — open to on-site, hybrid, and remote work.
+  ⚡ Product Engineer · Agentic AI ⚡
+</pre>
 
-- 🤖 Building agentic AI systems with **LangChain**, **LangGraph**, and vector databases (**ChromaDB**)
-- 🔭 Currently building **Sidd-V2**, a local-first autonomous AI agent (Android edge node + Rust WebSocket server)
-- 🦾 Also working on **VIEON**, a tri-node embodied AI system (ESP32 humanoid + Android + PC)
-- 🧩 Building **SkillsLMS**, a full-stack modern LMS (Learning Management System) product
-- 📊 Data processing & analysis with **NumPy**, **Pandas**, and **FastAPI**
-- 🎨 Also work on graphics UI/UX design
-- 👨‍🏫 Community Leader at **CodeWithSidd**
-- 📫 Reach me at **siddharthkumarrairai@gmail.com**
+</td>
+<td width="54%" valign="top">
 
----
+```bash
+avinash@world:~$ whoami
 
-### 💼 Experience
+Hi 👋, I'm Siddharth Kumar Rai
+> ready_to_build --mode=agentic
 
-| Role | Company | Duration |
-|---|---|---|
-| Electronics & IoT (Freelance) | acreativestudios | Feb 2025 - Present |
-| Web Development Intern | Arista Vault Mw (Arivation Fashiontech) | Mar 2025 - Jun 2025 |
-| Web Developer (Freelance) | Agnus Media | May 2024 - Jul 2024 |
-| Backend Developer Intern | Sponsorgram | Mar 2024 - May 2024 |
+📍 Location   : Greater Delhi Area, India
+🎓 Education  : BCA (Software Technology), IGNOU — Grade A++
+🎯 Focus      : Agentic AI · Full-Stack Dev · IoT Automation
+💼 Currently  : Product Engineer (Freelance) @ acreativestudios
+🔗 Portfolio  : sidd-portfolio.onrender.com
+📧 Email      : siddharthkumarrairai@gmail.com
 
----
+status: open_to_work ✅
+```
 
-### 🧰 Tech Stack
+**TECHNICAL SKILLS**
 
-**Languages**
+<img src="https://img.shields.io/badge/-React.js-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/-Node.js-43853D?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
-
-**Agentic AI & Data**
+<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white"/> <img src="https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/-MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white"/>
 
 <p>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge&logo=chroma&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<a href="https://github.com/siddharthkumarrai"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/siddharthkumarrai"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://x.com/siddharthkr777"><img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
+<a href="https://sidd-portfolio.onrender.com/home"><img src="https://img.shields.io/badge/-Portfolio-2CD4C5?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
 </p>
 
-**Frameworks & Runtimes**
+</td>
+</tr>
+</table>
 
-<p>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" />
-</p>
+<br/>
 
-**Databases & Cloud**
+## 🧠 Hi there! I'm Siddharth Kumar Rai
 
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
+I'm a **Software Developer and Creative Technologist** who believes great engineering doesn't just live on a screen — it interacts with the real world. I don't just write code; I build complete, intelligent ecosystems from the ground up: AI pipelines, backend systems, hardware automation, and UI architecture, all working together.
 
-**Tools**
+Final-semester **BCA student (IGNOU)**, graduating this month, currently freelancing as a **Product Engineer** in Electronics & IoT at **acreativestudios**, based in the Greater Delhi Area. Community Leader at **CodeWithSidd**. Open to full-time roles.
 
-<p>
-  <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-0078D7?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-</p>
+```yaml
+current_focus:
+  - Agentic AI: LangChain, LangGraph, ChromaDB (vector DB)
+  - Data: NumPy, Pandas, FastAPI
+  - Product: Sidd-V2 (autonomous local-first AI agent)
+  - Product: VIEON (tri-node embodied AI — ESP32 + Android + PC)
+  - Product: SkillsLMS (full-stack learning management system)
+  - Building: a reusable UI component library (WIP)
+```
 
 ---
 
-### 🚀 Featured Projects
+## 💼 Experience
 
-| Project | Description | Links |
-|---|---|---|
-| **SkillsLMS** | A full-stack modern LMS (Learning Management System) product | [Live](https://skillslms.vercel.app/) · [Repo](https://github.com/siddharthkumarrai/LMS) |
-| **Sidd-V2** | Local-first autonomous AI agent — Android (Kotlin) edge node paired with a Rust WebSocket server | — |
-| **VIEON** | Decentralized tri-node embodied AI system spanning an ESP32 humanoid, Android device, and PC | — |
+<table>
+<tr><th align="left">Role</th><th align="left">Company</th><th align="left">Duration</th></tr>
+<tr><td>Product Engineer · Electronics &amp; IoT (Freelance)</td><td>acreativestudios</td><td>Feb 2025 – Present</td></tr>
+<tr><td>Web Development Intern</td><td>Arista Vault Mw (Arivation Fashiontech)</td><td>Mar 2025 – Jun 2025</td></tr>
+<tr><td>Web Developer (Freelance)</td><td>Agnus Media</td><td>May 2024 – Jul 2024</td></tr>
+<tr><td>Backend Developer Intern</td><td>Sponsorgram</td><td>Mar 2024 – May 2024</td></tr>
+</table>
 
 ---
 
-### 📊 GitHub Stats
+## 🚀 Featured Builds
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**🧩 SkillsLMS**
+Full-stack modern LMS product
+[Live](https://skillslms.vercel.app/) · [Repo](https://github.com/siddharthkumarrai/LMS)
+
+</td>
+<td width="33%" valign="top">
+
+**🤖 Sidd-V2**
+Local-first autonomous AI agent — Android edge node + Rust WebSocket server
+
+</td>
+<td width="33%" valign="top">
+
+**🦾 VIEON**
+Tri-node embodied AI system — ESP32 humanoid + Android + PC
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=siddharthkumarrai&theme=dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=siddharthkumarrai&theme=dark&hide_border=false" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=siddharthkumarrai&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=siddharthkumarrai&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddharthkumarrai&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddharthkumarrai&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="165" />
 </p>
-
----
-
-### 🌐 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/siddharthkumarrai"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://x.com/siddharthkr777"><img src="https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white" /></a>
-  <a href="https://instagram.com/siddharthkumarrai777"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://discord.com/invite/4dNFddSN"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=siddharthkumarrai&theme=tokyo-night&hide_border=true" width="100%"/>
 </p>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=120&section=footer" width="100%"/>
+
+</div>
