@@ -1,29 +1,42 @@
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f14,50:0d151c,100:101922&height=200&section=header&text=Siddharth%20Kumar%20Rai&fontColor=45f5c7&fontSize=40&fontAlign=middle&animation=fadeIn" alt="Siddharth Kumar Rai" width="100%">
-
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3400&pause=800&color=45F5C7&center=true&vCenter=true&width=640&lines=Product+Engineer;Agentic+AI+%26+Full-Stack;IoT+%26+Edge+Automation;%F0%9F%91%8B+Open+to+work" alt="Typing SVG">
-
-  <p>
-    <a href="https://github.com/siddharthkumarrai">GitHub</a> ·
-    <a href="https://www.linkedin.com/in/siddharth-kumar-rai/">LinkedIn</a> ·
-    <a href="https://siddyadav.vercel.app/">Portfolio</a> ·
-    <a href="https://instagram.com/siddharthkumarrai777">Instagram</a> ·
-    <a href="mailto:siddharthkumarrairai@gmail.com">Email</a>
-  </p>
-</div>
-
----
-
-### `./scan --biometric`
-
-<div align="center">
-  <img src="./assets/siddharth-face-scan.gif" alt="ASCII biometric face scan of Siddharth Kumar Rai" width="440">
-</div>
-
-<div align="center">
-  <sub>◉ subject <code>SIDDHARTH_KUMAR_RAI</code> · scan rendered from <code>assets/sidd image.jpeg</code> · regenerate: <code>python tools/generate_face_ascii.py</code></sub>
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="middle" align="center">
+      <img src="./assets/siddharth-face-scan.gif" alt="ASCII biometric face scan of Siddharth Kumar Rai" width="440">
+    </td>
+    <td width="50%" valign="top">
+      <h2>Siddharth Kumar Rai</h2>
+      <p><b>Product Engineer · Agentic AI &amp; Full-Stack · IoT &amp; Edge Automation</b></p>
+      <p>
+        Final-semester <b>BCA</b> student (IGNOU, Grade A++) freelancing as
+        <b>Product Engineer · Electronics &amp; IoT</b> at <b>acreativestudios</b>.
+        I don't just write code — I build complete, intelligent ecosystems from
+        the ground up: <b>AI pipelines</b>, <b>backend systems</b>,
+        <b>hardware automation</b> and <b>UI architecture</b>, all working
+        together end to end.
+      </p>
+      <p>
+        <b>Currently building</b><br/>
+        🤖 <b>Sidd-V2</b> — local-first autonomous AI agent<br/>
+        🦾 <b>VIEON</b> — tri-node embodied AI (ESP32 + Android + PC)<br/>
+        🧩 <b>SkillsLMS</b> — full-stack learning platform
+      </p>
+      <p>
+        <b>./scan --biometric</b> — live ASCII scan rendered from
+        <code>assets/sidd image.jpeg</code> · regenerate:
+        <code>python tools/generate_face_ascii.py</code><br/>
+        📍 Greater Delhi Area, India · ✅ <b>open_to_work</b>
+      </p>
+      <p>
+        <a href="https://github.com/siddharthkumarrai">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/siddharth-kumar-rai/">LinkedIn</a> ·
+        <a href="https://siddyadav.vercel.app/">Portfolio</a> ·
+        <a href="https://instagram.com/siddharthkumarrai777">Instagram</a> ·
+        <a href="mailto:siddharthkumarrairai@gmail.com">Email</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
