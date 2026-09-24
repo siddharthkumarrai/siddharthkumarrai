@@ -5,7 +5,7 @@ GitHub profile README.
 
 Outputs (all under ./assets):
   siddharth-face.txt              raw ASCII portrait
-  siddharth-face-hud.txt          HUD block (face + profile panel) for README
+  siddharth-face-hud.txt          HUD block (framed face only) for README
   siddharth-face-scan-preview.png styled preview render
   siddharth-face-scan.gif         animated scan-line GIF (README hero)
 
@@ -15,7 +15,6 @@ Usage:
 
 from __future__ import annotations
 
-import textwrap
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
@@ -44,25 +43,8 @@ RAMP = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
 FG = (69, 245, 199)         # #45F5C7 terminal green
 FG_DIM = (46, 130, 110)
 BG = (8, 12, 14)
-PANEL_W = 34                # width of the right-hand profile panel
 
-IDENTITY = "SIDDHARTH KUMAR RAI"
-ROLE = "PRODUCT ENGINEER"
-FOCUS = "AGENTIC AI / FULL-STACK"
-STACK = "NEXT.JS · NODE · PYTHON"
-STATUS = "OPEN TO WORK"
-GITHUB = "github.com/siddharthkumarrai"
-LOCATION = "DELHI, INDIA"
-
-PANEL_ROWS = [
-    ("IDENTITY", IDENTITY),
-    ("ROLE", ROLE),
-    ("FOCUS", FOCUS),
-    ("STACK", STACK),
-    ("STATUS", STATUS),
-    ("GITHUB", GITHUB),
-    ("LOCATION", LOCATION),
-]
+NAME = "SIDDHARTH KUMAR RAI"
 
 
 
@@ -99,49 +81,31 @@ def prepare(src: Image.Image) -> Image.Image:
 # --------------------------------------------------------------------------
 # hud composition
 # --------------------------------------------------------------------------
-def wrap_panel(value: str, width: int) -> list[str]:
-    return textwrap.wrap(value, width=width) or [""]
-
-
 def build_hud(face: list[str]) -> str:
-    """Compose the biometric HUD: ASCII face left, profile panel right."""
+    """Compose the biometric HUD: ASCII face only, inside a terminal frame."""
     face_w = FACE_COLS
-    inner = face_w + 3 + PANEL_W
+    inner = face_w + 2
     sep = "+" + "-" * (inner + 2) + "+"
 
-    def row(left: str = "", right: str = "") -> str:
-        return "| " + left.ljust(face_w + 2) + right.ljust(PANEL_W) + " |"
+    def row(text: str = "") -> str:
+        return "| " + text.ljust(inner) + " |"
 
     lines = [sep]
     title = " PROFILE // BIOMETRIC ASCII SCAN"
-    lines.append("| " + title.ljust(inner - len("SIDDHARTH_KUMAR_RAI") - 2)
-                 + "SIDDHARTH_KUMAR_RAI |")
+    name = NAME.replace(" ", "_")
+    lines.append("| " + title.ljust(inner - len(name)) + name + " |")
     lines.append(sep)
 
-    # build panel column: header, then labelled fields
-    panel: list[str] = [" PROFILE DATA".ljust(PANEL_W), ""]
-    for i, (label, value) in enumerate(PANEL_ROWS):
-        if i:
-            panel.append("")
-        panel.append((" " + label).ljust(PANEL_W))
-        for j, chunk in enumerate(wrap_panel(value, PANEL_W - 2)):
-            panel.append(("  " + chunk if j == 0 else "    " + chunk).ljust(PANEL_W))
-
     # left column: subject header + scan bar + face
-    # NOTE: every left chunk must stay <= face_w + 2 so the right panel
-    # always starts on the same column.
+    # NOTE: every left chunk must stay <= inner so the frame edge aligns.
     left = [(" SUBJECT: FACE_ASCII").ljust(face_w - 7) + " [ LIVE ]",
             (" " + "█" * (face_w - 1)).ljust(face_w + 2)]
     left += [" " + ln for ln in face]
     left.append("")
     left.append((" SCAN 100%   SIGNAL " + "████████").ljust(face_w + 2))
 
-    height = max(len(left), len(panel))
-    left += [""] * (height - len(left))
-    panel += [""] * (height - len(panel))
-
-    for l, p in zip(left, panel):
-        lines.append(row(l, p))
+    for l in left:
+        lines.append(row(l))
     lines.append(sep)
     return "\n".join(lines)
 
