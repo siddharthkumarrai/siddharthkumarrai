@@ -168,12 +168,17 @@ P5 = """
 ### `./stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=siddharthkumarrai&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddharthkumarrai&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages">
+  <img src="./profile-summary-card-output/tokyonight/3-stats.svg" height="165" alt="GitHub stats">
+  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" height="165" alt="Top languages">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=siddharthkumarrai&theme=tokyonight&hide_border=true" height="165" alt="GitHub streak">
+  <img src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" height="165" alt="Repos per language">
+  <img src="./profile-summary-card-output/tokyonight/4-productive-time.svg" height="165" alt="Productive time">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=siddharthkumarrai&theme=tokyonight&hide_border=true" alt="GitHub streak">
 </p>
 
 ---
