@@ -148,8 +148,9 @@ current_focus :
 ### `./stats`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=siddharthkumarrai&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddharthkumarrai&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=siddharthkumarrai&theme=tokyonight" height="165" alt="GitHub stats">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=siddharthkumarrai&theme=tokyonight" height="165" alt="Top languages">
+  <img src="https://streak-stats.demolab.com/?user=siddharthkumarrai&theme=tokyonight&hide_border=true" height="165" alt="Streak">
 </p>
 
 <p align="center">
