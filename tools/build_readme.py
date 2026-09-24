@@ -1,17 +1,12 @@
 """Assemble README.md for the GitHub profile.
 
-The biometric HUD is injected verbatim from assets/siddharth-face-hud.txt so
-the ASCII art (which contains quotes/backticks/backslashes) is never retyped.
 Run: python tools/build_readme.py
 """
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-HUD = (ROOT / "assets" / "siddharth-face-hud.txt").read_text(
-    encoding="utf-8"
-).rstrip("\n")
 
-# --- README template: part 1 — header + scan centerpiece (opens code fence) --
+# --- README template: part 1 — header + scan GIF ------------------------------
 P1 = """
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f14,50:0d151c,100:101922&height=200&section=header&text=Siddharth%20Kumar%20Rai&fontColor=45f5c7&fontSize=40&fontAlign=middle&animation=fadeIn" alt="Siddharth Kumar Rai" width="100%">
@@ -32,13 +27,11 @@ P1 = """
 ### `./scan --biometric`
 
 <div align="center">
-  <img src="./assets/siddharth-face-scan.gif" alt="ASCII biometric face scan of Siddharth Kumar Rai" width="940">
+  <img src="./assets/siddharth-face-scan.gif" alt="ASCII biometric face scan of Siddharth Kumar Rai" width="440">
 </div>
-
-```text
 """
 
-# --- part 2 — close scan fence, caption, whoami ------------------------------
+# --- part 2 — caption, whoami -------------------------------------------------
 P2 = """
 <div align="center">
   <sub>◉ subject <code>SIDDHARTH_KUMAR_RAI</code> · scan rendered from <code>assets/sidd image.jpeg</code> · regenerate: <code>python tools/generate_face_ascii.py</code></sub>
@@ -63,8 +56,6 @@ siddharth@world:~$ whoami
 
 ---
 """
-FENCE = "```\n"
-
 # --- part 3 — about + stack --------------------------------------------------
 P3 = """
 ### `./about`
@@ -196,7 +187,7 @@ email    : siddharthkumarrairai@gmail.com
 
 # ---------------------------------------------------------------------------
 def main() -> None:
-    readme = P1 + HUD + "\n" + FENCE + P2 + P3 + P4 + P5
+    readme = P1 + P2 + P3 + P4 + P5
     out = ROOT / "README.md"
     with out.open("w", encoding="utf-8", newline="\n") as fh:
         fh.write(readme)
