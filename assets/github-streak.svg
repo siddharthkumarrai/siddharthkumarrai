@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="140" viewBox="0 0 490 140" role="img" aria-label="GitHub streak stats for siddharthkumarrai">
+<title>GitHub streak stats for siddharthkumarrai</title>
+<rect x="1" y="1" width="488" height="138" rx="5" fill="#1a1b27" stroke="#1a1b27"/>
+<g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" text-anchor="middle">
+<text x="95" y="58" font-size="36" font-weight="600" fill="#f7768e">2</text>
+<text x="95" y="86" font-size="15" fill="#38bdae">Current Streak</text>
+<text x="95" y="110" font-size="11" fill="#565f89">Sep 24 - Sep 25</text>
+<text x="245" y="58" font-size="36" font-weight="600" fill="#bb9af7">4</text>
+<text x="245" y="86" font-size="15" fill="#38bdae">Longest Streak</text>
+<text x="245" y="110" font-size="11" fill="#565f89">Apr 19 - Apr 22</text>
+<text x="395" y="58" font-size="36" font-weight="600" fill="#7dcfff">268</text>
+<text x="395" y="86" font-size="15" fill="#38bdae">Total Contributions</text>
+<text x="395" y="110" font-size="11" fill="#565f89">in the last year</text>
+</g>
+</svg>

@@ -154,7 +154,7 @@ current_focus :
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=siddharthkumarrai&theme=tokyonight&hide_border=true" alt="GitHub streak">
+  <img src="./assets/github-streak.svg" alt="GitHub streak">
 </p>
 
 ---
