@@ -8,13 +8,23 @@ on:
     branches: [main]
     paths: [".github/workflows/profile-cards.yml"]
 
+# Serialize with update-stats.yml: both workflows push to main, so running
+# them at the same time makes one of the pushes fail as non-fast-forward.
+concurrency:
+  group: profile-stats-writers
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+      # Track the branch tip instead of the triggering SHA: another workflow
+      # may already have pushed, and a stale checkout cannot be pushed over.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

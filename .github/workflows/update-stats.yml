@@ -14,9 +14,10 @@ on:
       - "tools/build_readme.py"
       - "README.md"
 
-# Never run two refreshes at once (they would race on the same file).
+# Serialize with profile-cards.yml - both workflows push to main, and two
+# concurrent pushes cause a non-fast-forward rejection.
 concurrency:
-  group: update-stats
+  group: profile-stats-writers
   cancel-in-progress: false
 
 jobs:
