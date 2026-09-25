@@ -8,11 +8,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 # --- README template: part 1 — two-column display (ASCII + description) --------
 P1 = """
-<div align="center">
+<div>
   <picture>
     <source media="(max-width: 640px)" srcset="./assets/siddharth-face-scan-mobile.gif">
     <source media="(max-width: 1024px)" srcset="./assets/siddharth-face-scan-tablet.gif">
-    <img src="./assets/siddharth-face-scan.gif" alt="ASCII biometric face scan of Siddharth Kumar Rai" width="440">
+    <img src="./assets/siddharth-face-scan.gif" alt="ASCII biometric face scan of Siddharth Kumar Rai" width="440" align="left">
   </picture>
   <h2>Siddharth Kumar Rai</h2>
       <p><b>Product Engineer · Agentic AI &amp; Full-Stack · IoT &amp; Edge Automation</b></p>
@@ -45,6 +45,7 @@ P1 = """
         <a href="https://instagram.com/siddharthkumarrai777">Instagram</a> ·
         <a href="mailto:siddharthkumarrairai@gmail.com">Email</a>
       </p>
+<br clear="all"/>
 
 ---
 """
