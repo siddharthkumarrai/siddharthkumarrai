@@ -1,0 +1,10 @@
+# Normalise text to LF in the repository and in the working copy.
+# Without this, core.autocrlf=true on Windows rewrites checked-out files to
+# CRLF, so a locally regenerated file reports as modified (git status " M")
+# even when its bytes are byte-for-byte identical to the committed blob.
+* text=auto eol=lf
+
+*.gif  binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
