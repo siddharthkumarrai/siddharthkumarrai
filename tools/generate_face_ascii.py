@@ -7,7 +7,9 @@ Outputs (all under ./assets):
   siddharth-face.txt              raw ASCII portrait
   siddharth-face-hud.txt          HUD block (framed face only) for README
   siddharth-face-scan-preview.png styled preview render
-  siddharth-face-scan.gif         animated scan-line GIF (README hero)
+  siddharth-face-scan.gif         scan GIF, font 15 px (desktop / fallback)
+  siddharth-face-scan-tablet.gif  same GIF, font 11 px (<= 1024 px viewports)
+  siddharth-face-scan-mobile.gif  same GIF, font 9 px  (<= 640 px viewports)
 
 Usage:
   python tools/generate_face_ascii.py
@@ -176,14 +178,42 @@ def render_hud_png(hud: str, path: Path) -> None:
     img.save(path)
 
 
-def render_gif(hud: str, path: Path, frames: int = 24) -> None:
-    """Animated scan-line sweep over the HUD, like the reference video."""
-    font = _font(15)
-    pad = 24
-    lines = hud.split("\n")
-    _, ch, w, h = _measure(lines, font, pad)
+# one <picture> breakpoint per variant; each is RENDERED natively at its
+# own font size. Downscaling would ring the glyph edges, explode the
+# palette and blow up the GIF size -- native hinted text compresses.
+#   <= 640px  -> mobile  (font 9,  ~448 px wide)
+#   <= 1024px -> tablet  (font 11, ~540 px wide)
+#   wider     -> desktop / <picture> fallback (font 15, 720 px wide)
+GIF_VARIANTS = (
+    ("siddharth-face-scan-mobile.gif", 9),
+    ("siddharth-face-scan-tablet.gif", 11),
+    ("siddharth-face-scan.gif", 15),
+)
 
-    frames_img: list[Image.Image] = []
+
+def render_gifs(hud: str, frames: int = 24) -> None:
+    """Animated scan-line sweep, re-rendered natively at every breakpoint."""
+    for name, font_px in GIF_VARIANTS:
+        render_gif_variant(hud, name, font_px, frames)
+
+
+def render_gif_variant(hud: str, name: str, font_px: int, frames: int) -> None:
+    """Draw one GIF at ``font_px``.
+
+    Every geometry value scales linearly with the font size, so all
+    variants keep the same aspect ratio (and therefore the same ASCII
+    likeness) as the desktop render.
+    """
+    font = _font(font_px)
+    pad = max(8, round(24 * font_px / 15))
+    bar = max(2, round(3 * font_px / 15))       # scan-bar thickness
+    step = max(2, round(4 * font_px / 15))      # CRT scanline pitch
+    lines = hud.split("\n")
+    cw, _, w, _ = _measure(lines, font, pad)
+    ch = cw * 2.25                              # exact cell aspect (see CELL)
+    h = round(len(lines) * ch + pad * 2)        # re-derive height from it
+
+    out_frames: list[Image.Image] = []
     for f in range(frames):
         img = Image.new("RGB", (w, h), BG)
         d = ImageDraw.Draw(img)
@@ -198,19 +228,21 @@ def render_gif(hud: str, path: Path, frames: int = 24) -> None:
                 color = FG_DIM
             d.text((pad, y), line, font=font, fill=color)
             y += ch
-        d.rectangle([pad, scan_y, w - pad, scan_y + 3], fill=(120, 255, 220))
-        for yy in range(0, h, 4):
+        d.rectangle([pad, scan_y, w - pad, scan_y + bar], fill=(120, 255, 220))
+        for yy in range(0, h, step):
             d.line([(0, yy), (w, yy)], fill=(6, 10, 12))
-        frames_img.append(img.convert("P", palette=Image.ADAPTIVE, colors=48))
+        out_frames.append(img.quantize(colors=48, dither=Image.Dither.NONE))
 
-    frames_img[0].save(
-        path,
+    out = ASSETS / name
+    out_frames[0].save(
+        out,
         save_all=True,
-        append_images=frames_img[1:],
+        append_images=out_frames[1:],
         duration=100,
         loop=0,
         optimize=True,
     )
+    print(f"gif  : {name} {w}x{h} @ font {font_px}px {out.stat().st_size // 1024} KB")
 
 
 # --------------------------------------------------------------------------
@@ -225,7 +257,7 @@ def main() -> None:
     (ASSETS / "siddharth-face-hud.txt").write_text(hud, encoding="utf-8")
 
     render_hud_png(hud, ASSETS / "siddharth-face-scan-preview.png")
-    render_gif(hud, ASSETS / "siddharth-face-scan.gif", frames=18)
+    render_gifs(hud, frames=18)
 
     print(f"face : {FACE_COLS}x{len(face)} chars")
     print(f"hud  : {len(hud.splitlines()[0])} cols x {len(hud.splitlines())} rows")

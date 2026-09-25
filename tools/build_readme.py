@@ -8,15 +8,17 @@ ROOT = Path(__file__).resolve().parents[1]
 
 # --- README template: part 1 — two-column display (ASCII + description) --------
 P1 = """
-<table>
-  <tr>
-    <td width="50%" valign="middle" align="center">
-      <img src="./assets/siddharth-face-scan.gif" alt="ASCII biometric face scan of Siddharth Kumar Rai" width="440">
-    </td>
-    <td width="50%" valign="top">
-      <h2>Siddharth Kumar Rai</h2>
+<div align="center">
+  <picture>
+    <source media="(max-width: 640px)" srcset="./assets/siddharth-face-scan-mobile.gif">
+    <source media="(max-width: 1024px)" srcset="./assets/siddharth-face-scan-tablet.gif">
+    <img src="./assets/siddharth-face-scan.gif" alt="ASCII biometric face scan of Siddharth Kumar Rai" width="440">
+  </picture>
+  <h2>Siddharth Kumar Rai</h2>
       <p><b>Product Engineer · Agentic AI &amp; Full-Stack · IoT &amp; Edge Automation</b></p>
-      <p>
+</div>
+
+<p>
         Final-semester <b>BCA</b> student (IGNOU, Grade A++) freelancing as
         <b>Product Engineer · Electronics &amp; IoT</b> at <b>acreativestudios</b>.
         I don't just write code — I build complete, intelligent ecosystems from
@@ -43,9 +45,6 @@ P1 = """
         <a href="https://instagram.com/siddharthkumarrai777">Instagram</a> ·
         <a href="mailto:siddharthkumarrairai@gmail.com">Email</a>
       </p>
-    </td>
-  </tr>
-</table>
 
 ---
 """
@@ -133,32 +132,28 @@ P4 = """
 
 ### `./featured-builds`
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3 align="center">🧩 SkillsLMS</h3>
+<h3 align="center">🧩 SkillsLMS</h3>
       <p align="center">Full-stack modern learning management system.</p>
       <p align="center">
         <a href="https://skillslms.vercel.app"><img src="https://img.shields.io/badge/-Live-45F5C7?style=flat-square&logo=vercel&logoColor=black" alt="Live"></a>
         <a href="https://github.com/siddharthkumarrai/LMS"><img src="https://img.shields.io/badge/-Repo-9aa7a3?style=flat-square&logo=github&logoColor=white" alt="Repo"></a>
       </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🤖 Sidd-V2</h3>
+
+---
+
+<h3 align="center">🤖 Sidd-V2</h3>
       <p align="center">Local-first autonomous AI agent — Android edge node + Rust WebSocket server.</p>
       <p align="center">
         <a href="https://github.com/siddharthkumarrai/sidd-v2-assets"><img src="https://img.shields.io/badge/-Model%20Assets-9aa7a3?style=flat-square&logo=github&logoColor=white" alt="Model assets"></a>
       </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🦾 VIEON</h3>
+
+---
+
+<h3 align="center">🦾 VIEON</h3>
       <p align="center">Tri-node embodied AI — ESP32 humanoid + Android + PC.</p>
       <p align="center">
         <a href="https://github.com/siddharthkumarrai/-VIEON-Voice-Integrated-Embodied-Omni-Network"><img src="https://img.shields.io/badge/-Repo-9aa7a3?style=flat-square&logo=github&logoColor=white" alt="Repo"></a>
       </p>
-    </td>
-  </tr>
-</table>
 
 ---
 """
