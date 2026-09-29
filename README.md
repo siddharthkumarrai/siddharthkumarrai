@@ -10,7 +10,6 @@
 </div>
 
 <p>
-        Final-semester <b>BCA</b> student (IGNOU, Grade A++) freelancing as
         <b>Product Engineer · Electronics &amp; IoT</b> at <b>acreativestudios</b>.
         I don't just write code — I build complete, intelligent ecosystems from
         the ground up: <b>AI pipelines</b>, <b>backend systems</b>,
